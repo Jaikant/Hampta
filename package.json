@@ -1,6 +1,6 @@
 {
-  "name": "mountain-advice-web",
-  "description": "WWW for mountain advice",
+  "name": "hampta-treks",
+  "description": "WWW for Hampta Treks",
   "version": "1.1.0",
   "author": "Jaikant Kumaran <jaikant@gmail.com>",
   "dependencies": {
