@@ -49,7 +49,7 @@ export default (props) => {
       />
       {data.bgImage.resize.src && (
         <meta
-          name="og:image"
+          property="og:image"
           content={`https://hampta.com${
             data.bgImage.resize.src
           }`}

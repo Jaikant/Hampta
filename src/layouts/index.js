@@ -23,8 +23,8 @@ export default class Template extends React.Component {
           <link rel="shortcut icon" href={favicon} type="image/x-icon" />
           <link rel="icon" href={favicon} type="image/x-icon" />
           <meta name="twitter:site" content="@ravithakur5950" />
-          <meta name="og:type" content="website" />
-          <meta name="og:site_name" content="Hampta Treks" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="Hampta Treks" />
           <html lang="en" />
         </Helmet>
         <Navigation pathname={this.props.location.pathname} />

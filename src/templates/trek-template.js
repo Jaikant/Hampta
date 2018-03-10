@@ -111,7 +111,7 @@ const Template = ({ data, pathContext }) => {
             />
             {data.imageSharp && data.imageSharp.resize.src && (
               <meta
-                name="og:image"
+                property="og:image"
                 content={`https://hampta.com${
                   data.imageSharp.resize.src
                 }`}
@@ -125,7 +125,7 @@ const Template = ({ data, pathContext }) => {
                 }`}
               />
             )}
-            <meta name="og:type" content="article" />
+            <meta property="og:type" content="article" />
             <meta name="twitter:label1" content="Reading time" />
             <meta
               name="twitter:data1"

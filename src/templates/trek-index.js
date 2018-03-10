@@ -54,7 +54,7 @@ const IndexPage = (props) => {
         />
         {data.bgImage.resize.src && (
           <meta
-            name="og:image"
+            property="og:image"
             content={`https://hampta.com${
               data.bgImage.resize.src
             }`}
@@ -68,7 +68,7 @@ const IndexPage = (props) => {
             }`}
           />
         )}
-        <meta name="og:type" content="article" />
+        <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
       </Helmet>
