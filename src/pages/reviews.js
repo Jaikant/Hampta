@@ -25,7 +25,7 @@ return (
 }
 
 export default (props) => {
-  console.log("the props are: ", props)
+  const { pathname } = props.location;
   const { data } = props;
   const { edges } = data.allRatings;
   const title = 'Hampta Treks Customer Reviews';
@@ -38,6 +38,7 @@ export default (props) => {
       <meta name="Keywords" content={'reviews, customers, trekkers'} />
       <meta property="og:title" content={title} />
       <link rel="canonical" href={`https://sherpafeet.com/guide/RaviThakur`} />
+      <meta property="og:url" content={`https://hampta.com${pathname}`} />
       <meta
         property="og:description"
         content={description}

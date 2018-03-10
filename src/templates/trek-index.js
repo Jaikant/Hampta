@@ -28,7 +28,6 @@ const FlexTagBox = ({ children }) => (
 )
 
 const IndexPage = (props) => {
-  console.log(" the props are : ", props);
   const { location, data, pathContext } = props
   const { data: apiData } = pathContext;
   const { edges : images } = data.allImageSharp
@@ -56,7 +55,7 @@ const IndexPage = (props) => {
         {data.bgImage.resize.src && (
           <meta
             name="og:image"
-            content={`https://mountainadvice.com${
+            content={`https://hampta.com${
               data.bgImage.resize.src
             }`}
           />
@@ -64,7 +63,7 @@ const IndexPage = (props) => {
         {data.bgImage.resize.src && (
           <meta
             name="twitter:image"
-            content={`https://mountainadvice.com${
+            content={`https://hampta.com${
               data.bgImage.resize.src
             }`}
           />

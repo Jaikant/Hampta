@@ -99,6 +99,7 @@ const Template = ({ data, pathContext }) => {
             <meta name="description" content={pageDesc} />
             <meta name="Keywords" content={keywords} />
             { trek && <link rel="canonical" href={`https://sherpafeet.com/${pathContext.trekid}/trek`} /> }
+            <meta property="og:url" content={`https://hampta.com${slug}`} />
             <meta property="og:title" content={frontmatter.title} />
             <meta
               property="og:description"
