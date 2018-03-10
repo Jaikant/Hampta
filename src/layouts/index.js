@@ -7,7 +7,7 @@ import MobileNavigation from '../components/navigation-mobile';
 import Navigation from '../components/navigation';
 import Footer from '../components/Footer';
 import presets from "../utils/presets"
-
+import favicon from '../images/favicon.png';
 
 export default class Template extends React.Component {
   constructor(props) {
@@ -20,6 +20,8 @@ export default class Template extends React.Component {
     return (
       <div>
         <Helmet defaultTitle={`Hampta Treks`}>
+          <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+          <link rel="icon" href={favicon} type="image/x-icon" />
           <meta name="twitter:site" content="@ravithakur5950" />
           <meta name="og:type" content="website" />
           <meta name="og:site_name" content="Hampta Treks" />
