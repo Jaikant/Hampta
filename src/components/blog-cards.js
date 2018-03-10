@@ -71,7 +71,7 @@ const BlogCard = (props) => {
           <h4>
             {post.frontmatter.title}
           </h4>
-          <StyledSpan> Uttarakhand, India </StyledSpan>
+          <StyledSpan> Himachal Pradesh, India </StyledSpan>
           <div className={excerptStyle}>
             <span>{post.excerpt}</span>
           </div>
