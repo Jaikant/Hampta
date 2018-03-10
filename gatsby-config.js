@@ -64,7 +64,7 @@ module.exports = {
             // directory in /public during development and build, so
             // assuming your favicons are in /static/favicons,
             // you can reference them here
-            src: `/android-icon-192x192.png`,
+            src: `/favicons/android-icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },

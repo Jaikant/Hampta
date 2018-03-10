@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import classNames from 'classnames';
+import { css } from 'react-emotion';
 import MobileNavigation from '../components/navigation-mobile';
 import Navigation from '../components/navigation';
 import Footer from '../components/Footer';
@@ -38,7 +39,12 @@ export default class Template extends React.Component {
         >
         {this.props.children()}
         </div>
-        <Footer />
+        <div css={`
+               margin-bottom: 50px;
+            `}
+        >
+          <Footer />
+        </div>
         <MobileNavigation />
       </div>
     );
