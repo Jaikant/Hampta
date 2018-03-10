@@ -52,11 +52,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Mountain Advice",
-        short_name: "Mountain",
-        start_url: "/",
+        name: "Hampta Treks & Tours",
+        short_name: "Hampta Treks",
+        start_url: "/trek/",
         background_color: "#ffffff",
-        theme_color: "#6bd4c8",
+        theme_color: "#B9A44C",
         display: "minimal-ui",
         icons: [
           {
@@ -64,7 +64,7 @@ module.exports = {
             // directory in /public during development and build, so
             // assuming your favicons are in /static/favicons,
             // you can reference them here
-            src: `/favicons/android-icon-192x192.png`,
+            src: `/android-icon-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
