@@ -153,7 +153,7 @@ const Template = ({ data, pathContext }) => {
               <Tag style={{backgroundColor: `${colors.mountain4}`}}> Best Service </Tag>
               <Tag style={{backgroundColor: `${colors.mountain3}`}}> Group Discounts </Tag>
               <Tag style={{backgroundColor: `${colors.mountain4}`}}> Customised Treks </Tag>
-              <Tag style={{backgroundColor: `${colors.mountain3}`}}> Contact us @ +91 9736842584 </Tag>
+              <Tag style={{backgroundColor: `${colors.mountain3}`}}> Contact us @ +91 9736842584, +91 9817181686</Tag>
           </FlexTagBox>
           <div
             css={`
